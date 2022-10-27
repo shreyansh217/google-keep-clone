@@ -7,14 +7,21 @@
 nav{
     background-color: rgb(233, 233, 10);
 }
-nav>h1{
+#divid1>h1{
     font-family: 'Bitter', serif;
+    text-shadow: 2px 2px 4px #f0f1de;
 }
+
 #divid1
 {
     display: flex;
     
 align-items: center;
+}
+#divid1>img
+{
+    height: 50px;
+ width: 45px;   
 }
 /* div  */
 .btn-div{
