@@ -5,7 +5,7 @@
 }
 /* navbar */
 nav{
-    background-color: rgb(233, 233, 10);
+    background-color: rgb(122, 122, 112);
 }
 #divid1>h1{
     font-family: 'Bitter', serif;
@@ -21,31 +21,42 @@ align-items: center;
 #divid1>img
 {
     height: 50px;
- width: 45px;   
+ width: 55px;   
 }
 /* div  */
 .btn-div{
-    margin-left: 50%;
+    display: flex;
+    justify-content: center;
     margin-top: 3vh;
 }
 .btn-div>button
 {
-    background-color: yellowgreen;
+    background-color: rgb(211, 211, 195);
     padding: 5px;
     border-radius: 6px;
     box-shadow: rgb(97, 119, 62);
+    font-family: 'Bitter', serif;
+    text-shadow: 2px 2px 4px #f0f1de;
+    box-shadow:2px 2px 4px whitesmoke;
 }
 .btn-div>button:hover{
-    background-color: yellow;  
+    background-color:  rgb(122, 122, 112);
+    box-shadow:2px 2px 4px rgb(20, 11, 11);
+}
+
+.operation{
+    display: flex;
+    flex-direction: row;
+    
 }
 .note
 {
-    margin-left: 46%;
-    margin-top: 5vh;
+   margin-left: 40%;
+   margin-top: 5%;
 }
-.operation>button
+.operation>button 
 {
-    background-color: yellowgreen;
+    background-color:rgb(122, 122, 112);
     padding: 5px;
     margin-left: 3vh;
     border-radius: 6px;
