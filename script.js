@@ -16,7 +16,6 @@ const updateLSData = () => {
 const addNewNote = (text = "") => {
   const note = document.createElement("div");
   note.classList.add("note");
-
   const htmlData = `
     <div class="operation">
         <button class="edit"> <i class="fas fa-edit"></i> </button>

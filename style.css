@@ -4,8 +4,13 @@
     padding: 0px;
 }
 /* navbar */
+.body
+{
+    background-color:aqua;
+
+}
 nav{
-    background-color: rgb(122, 122, 112);
+    background-color: rgb(204, 204, 13);
 }
 #divid1>h1{
     font-family: 'Bitter', serif;
@@ -31,7 +36,7 @@ align-items: center;
 }
 .btn-div>button
 {
-    background-color: rgb(211, 211, 195);
+    background-color: rgb(204, 204, 13);
     padding: 5px;
     border-radius: 6px;
     box-shadow: rgb(97, 119, 62);
@@ -75,6 +80,10 @@ img{
    border-color:rgb(104, 223, 130);
 }
 .hidden
+{
+    display: none;
+}
+.main
 {
     display: none;
 }
