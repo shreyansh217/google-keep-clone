@@ -60,18 +60,24 @@ align-items: center;
     margin:0 1vh 0 1vh;
     border-radius: 6px;
     box-shadow: rgb(97, 119, 62);
+    cursor: pointer;
 }
 .note>textarea{
     display: inline;
+    overflow-x: hidden;
 }
 img{
     height: 15px;
+    
 }
 .operation>button:hover{
     background-color:rgb(97, 119, 62);
    border-color:rgb(104, 223, 130);
 }
-
+.hidden
+{
+    display: none;
+}
  textarea
 {
     height: 200px;
