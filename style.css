@@ -46,21 +46,23 @@ align-items: center;
 
 .operation{
     display: flex;
-    flex-direction: row;
-    
+    justify-content: space-between;
 }
 .note
 {
-   margin-left: 40%;
-   margin-top: 5%;
+   display: inline-block;
+   margin: 2%;
 }
 .operation>button 
 {
     background-color:rgb(122, 122, 112);
     padding: 5px;
-    margin-left: 3vh;
+    margin:0 1vh 0 1vh;
     border-radius: 6px;
     box-shadow: rgb(97, 119, 62);
+}
+.note>textarea{
+    display: inline;
 }
 img{
     height: 15px;

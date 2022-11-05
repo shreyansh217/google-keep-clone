@@ -1,14 +1,14 @@
-
 const addButton = document.querySelector("#add");
 
 const updateLSData = () => {
   const textAreaData = document.querySelectorAll("textarea");
   const notes = [];
-  console.log(textAreaData);
+
+  // console.log(textAreaData);
   textAreaData.forEach((note) => {
     return notes.push(note.value);
   });
-  console.log(notes);
+  // console.log(notes);
 
   localStorage.setItem("notes", JSON.stringify(notes));
 };
