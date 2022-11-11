@@ -57,4 +57,15 @@ if (notes) {
   notes.forEach((note) => addNewNote(note));
 }
 
-addButton.addEventListener("click", () => addNewNote());
+// addButton.addEventListener("click", () => addNewNote());
+addButton.addEventListener("click", function(){
+
+  const alerter = JSON.parse(localStorage.getItem("notes"));
+  //  console.log(alerting.length)
+  for (var i = 0; i < alerter.length; i++)                            //alert when there are no item in Text area
+    if (alerter[i] == "") {
+      return alert("Note is Empty!");
+    }
+    addNewNote();
+}
+)
